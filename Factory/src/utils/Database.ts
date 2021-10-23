@@ -1,5 +1,5 @@
 export interface IDatabase {
-  connect(): any;
+  connect(): Promise<IDatabase>;
   find(query: string): Promise<any[]>;
 }
 
@@ -12,6 +12,7 @@ class Database implements IDatabase {
 
   async connect () {
     await this.sleep(500)
+    return this
   }
 
   async find (_query: string) {
