@@ -36,6 +36,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "pdf-parse": "^1.1.1",
+    "rewiremock": "^3.14.3",
     "safe-regex": "^2.1.1"
   }
 }

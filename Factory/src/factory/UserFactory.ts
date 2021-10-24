@@ -1,6 +1,6 @@
 import { UserRepository } from '../repository/UserRepository'
 import { UserService } from '../service/UserService'
-import { Database } from '../utils/Database'
+import Database from '../utils/Database'
 
 class UserFactory {
   static async createInstance () {
