@@ -19,7 +19,7 @@ jest.mock('./../src/utils/Database', () => {
 describe('User factory', () => {
   it('should return the mocked users', async () => {
     const userFactory = await UserFactory.createInstance()
-    const result = await userFactory.find('name: Erick')
+    const result = await userFactory.find('name: Kaio')
     expect(result).toEqual([{ name: 'KAIO' }, { name: 'WOEN' }])
   })
 })
