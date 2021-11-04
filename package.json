@@ -36,7 +36,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "http-server": "^14.0.0",
+    "knex": "^0.95.12",
+    "mongodb": "^4.1.4",
     "pdf-parse": "^1.1.1",
+    "pg": "^8.7.1",
     "rewiremock": "^3.14.3",
     "safe-regex": "^2.1.1"
   }
